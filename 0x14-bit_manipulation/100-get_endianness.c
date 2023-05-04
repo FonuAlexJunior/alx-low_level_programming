@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_endianness -it is used to checks if a machine is either little or big endian
+ * get_endianness - determines if a machine is either little or big endian
  * Return: 0 for big, 1 for little
  */
 int get_endianness(void)
@@ -11,4 +11,3 @@ int get_endianness(void)
 
 	return (*c);
 }
-
